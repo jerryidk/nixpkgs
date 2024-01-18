@@ -68,7 +68,7 @@ in
 {
   kosumi = let username = "kosumi"; in mkHome { hidpi = false;inherit username; homed = "/home/${username}"; };
 
-  shellhome = let username = "Kosumi"; in mkHome { hidpi = false;inherit username; shell = true; homed = "/users/${username}"; };
+  shellhome = let username = "jerryidk"; in mkHome { hidpi = false;inherit username; shell = true; homed = "/users/${username}"; };
   # Continuos Integration automation
   #  ci = {
   #    metals = pkgs.callPackage ../home/programs/neovim-ide/metals.nix { };
