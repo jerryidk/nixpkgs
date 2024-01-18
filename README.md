@@ -9,7 +9,7 @@ Based on [nix-config](https://github.com/gvolpe/nix-config).
 ### CLI only
 #### Bootstrapping home manager
 ```console
-nix build github:KaminariOS/nixpkgs/dev#homeConfigurations.shellhome.activationPackage --extra-experimental-features nix-command --extra-experimental-features flakes
+nix build github:jerryidk/nixpkgs/dev#homeConfigurations.shellhome.activationPackage --extra-experimental-features nix-command --extra-experimental-features flakes
 result/activate
 
 ```
